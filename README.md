@@ -11,7 +11,7 @@ This is a bare bones ReactJS setup. This has all of the configurations we use as
 ## Get Started
 
 ```
-git clone git@github.com:JeanHules/react-boiler-plate.git
+git clone https://github.com/JeanHules/react-boiler-plate
 cd react-boiler-plate
 yarn
 yarn dev
