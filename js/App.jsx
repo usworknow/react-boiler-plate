@@ -3,6 +3,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
+import store from './store';
 import Landing from './Landing';
 import '../public/scss/styles.scss';
 
@@ -17,7 +18,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<BrowserRouter>
-				<Provider>
+				<Provider store={store}>
 					<div id="wrapper" className="">
 						<div className="app">
 							<Switch>
