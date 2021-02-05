@@ -31,7 +31,7 @@
         "immutability-helper": "^2.8.1",
         "immutable": "^4.0.0-rc.12",
         "jquery": "^3.3.1",
-        "lodash": "^4.17.11",
+        "lodash": "^4.17.19",
         "preact": "8.1.0",
         "preact-compat": "3.16.0",
         "prop-types": "^15.6.2",
