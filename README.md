@@ -16,4 +16,3 @@ cd react-boiler-plate
 yarn
 yarn dev
 ```
-

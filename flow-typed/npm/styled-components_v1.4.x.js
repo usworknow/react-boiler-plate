@@ -4,21 +4,18 @@
 // @flow
 
 type $npm$styledComponents$Interpolation = ((executionContext: Object) => string) | string | number;
-type $npm$styledComponents$NameGenerator = (hash: number) => string
+type $npm$styledComponents$NameGenerator = (hash: number) => string;
 
 type $npm$styledComponents$StyledComponent = (
   strings: Array<string>,
   ...interpolations: Array<$npm$styledComponents$Interpolation>
 ) => ReactClass<*>;
 
-
-type $npm$styledComponents$Theme = {[key: string]: mixed};
+type $npm$styledComponents$Theme = { [key: string]: mixed };
 type $npm$styledComponents$ThemeProviderProps = {
-  theme: $npm$styledComponents$Theme | ((outerTheme: $npm$styledComponents$Theme) => void)
+  theme: $npm$styledComponents$Theme | ((outerTheme: $npm$styledComponents$Theme) => void),
 };
-type $npm$styledComponents$Component =
-  | React$Component<*, *, *>
-  | (props: *) => React$Element<*>;
+type $npm$styledComponents$Component = React$Component<*, *, *> | ((props: *) => React$Element<*>);
 
 class Npm$StyledComponents$ThemeProvider extends React$Component {
   props: $npm$styledComponents$ThemeProviderProps;

@@ -1,0 +1,27 @@
+{
+    "extends": ["plugin:flowtype/recommended", "airbnb", "prettier", "prettier/react"],
+    "plugins": ["flowtype", "prettier"],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersions": 2016,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true,
+        "jest": true
+    },
+    "rules": {
+        "import/prefer-default-export": "off",
+        "react/prop-types": "off",
+        "arrow-body-style": "off",
+        "no-console": "off",
+        "no-undef": "off",
+        "radix": "off",
+        "react/no-array-index-key": "off"
+    }
+}
